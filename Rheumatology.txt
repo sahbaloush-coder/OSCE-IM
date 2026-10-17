@@ -1,0 +1,71 @@
+@ Rheuma_003_0 | Hands — 35F with SSc, bluish fingers and headache (case 1)
+- **Findings:** dusky blue-purple discoloration of the fingers (cyanotic phase of Raynaud), tight shiny skin with loss of skin creases (sclerodactyly).
+- **Diagnosis:** Raynaud phenomenon secondary to systemic sclerosis.
+
+@ Rheuma_007_0 | Fundoscopy — same patient, BP 210/130 (case 1)
+- **Findings:** widespread flame-shaped hemorrhages, cotton-wool spots, hard exudates and optic disc swelling.
+- **Diagnosis:** grade IV (Keith-Wagener) hypertensive retinopathy = malignant hypertension → scleroderma renal crisis.
+
+@ Rheuma_008_0 | Peripheral blood film — same patient (case 1)
+- **Findings:** fragmented red cells (schistocytes / helmet cells, arrows); platelets 90 ×10⁹/L.
+- **Diagnosis:** microangiopathic hemolytic anemia of scleroderma renal crisis → captopril.
+
+@ Rheuma_014_0 | Skin — 21F, fever 39–40 °C and arthritis (case 3)
+- **Findings:** evanescent salmon-pink macular / maculopapular rash on the trunk, appearing with fever spikes.
+- **Diagnosis:** Still rash → adult-onset Still disease (ferritin 2000 µg/L).
+
+@ Rheuma_020_0 | Eyelids — 42F, proximal weakness (case 4)
+- **Findings:** violaceous / purplish erythema and edema of the upper eyelid.
+- **Diagnosis:** heliotrope rash → dermatomyositis.
+
+@ Rheuma_021_0 | Hands — same patient (case 4)
+- **Findings:** violaceous scaly papules over the MCP and interphalangeal joints.
+- **Diagnosis:** Gottron papules → dermatomyositis (CK 3000 U/L).
+
+@ Rheuma_032_0 | Legs — 17M, rash, abdominal pain, arthralgia after URTI (case 5)
+- **Findings:** palpable purpura (raised violaceous papules and plaques) on the legs and ankles, gravity-dependent.
+- **Diagnosis:** small-vessel leukocytoclastic vasculitis → IgA vasculitis (HSP).
+
+@ Rheuma_032_1 | Skin biopsy, direct immunofluorescence — same patient (case 5)
+- **Findings:** granular IgA deposits in the walls of dermal small vessels.
+- **Diagnosis:** IgA vasculitis (Henoch-Schönlein purpura).
+
+@ Rheuma_120_0 | Legs — 42F, asthma, sinusitis, foot drop (case 6)
+- **Findings:** palpable purpura and petechiae on the lower legs and feet.
+- **Diagnosis:** cutaneous small-vessel vasculitis → EGPA (eosinophils 4,000/µL, MPO-ANCA positive).
+
+@ Rheuma_052_0 | Skin — 39F with SLE, fatigue and epistaxis (case 7)
+- **Findings:** scattered non-blanching red petechiae and small purpuric macules on the limbs.
+- **Diagnosis:** thrombocytopenic purpura (platelets 80 ×10⁹/L) → immune thrombocytopenia in active SLE.
+
+@ Rheuma_094_0 | Peripheral blood film — 23F with lupus nephritis, fever and seizure (case 8)
+- **Findings:** helmet cells and fragmented red cells (arrows), microspherocytes (large arrowheads), reduced platelets with a large platelet (dashed arrow).
+- **Diagnosis:** microangiopathic hemolytic anemia → TTP in SLE.
+
+@ Rheuma_094_1 | Normal blood film for comparison (case 8)
+- **Findings:** uniform round red cells with central pallor one-third of the diameter; normal platelets (arrowheads); small lymphocyte (arrow).
+- **Diagnosis:** normal peripheral smear.
+
+@ Rheuma_112_0 | ECG — 36F with sicca symptoms, generalized weakness (case 9)
+- **Findings:** sinus tachycardia; diffuse ST-segment depression; flattened T waves with prominent U waves; prolonged QT (QU) interval.
+- **Diagnosis:** severe hypokalemia (K 1.9 mmol/L = 1.9 mEq/L) from distal RTA in Sjögren syndrome.
+
+@ Rheuma_039_0 | Elbows — 21M with psoriasis, inflammatory back pain (case 11)
+- **Findings:** well-demarcated erythematous plaques with thick silvery scale on the extensor elbows.
+- **Diagnosis:** chronic plaque psoriasis.
+
+@ Rheuma_040_0 | Nails — same patient (case 11)
+- **Findings:** multiple nail pits, ridging and onycholysis.
+- **Diagnosis:** psoriatic nail disease — strongly linked to DIP arthritis in PsA.
+
+@ Rheuma_041_0 | Hand X-ray — same patient (case 11)
+- **Findings:** DIP erosions with "pencil-in-cup" deformity (arrows), joint space loss, periostitis; no periarticular osteopenia.
+- **Diagnosis:** psoriatic arthritis.
+
+@ Rheuma_066_0 | Pelvis X-ray — 27M, inflammatory low back pain > 3 months (case 12)
+- **Findings:** bilateral sacroiliac joint sclerosis, erosions and joint-space narrowing / partial ankylosis (grade 3 — "unequivocal abnormality").
+- **Diagnosis:** bilateral sacroiliitis → ankylosing spondylitis (radiographic axial SpA; modified New York criteria met).
+
+@ Rheuma_128_0 | MRI sacroiliac joints (STIR) — 21M, chronic inflammatory back pain (case 14)
+- **Findings:** periarticular bone marrow edema (high STIR signal, arrows) in the sacrum and ilium, more on the right.
+- **Diagnosis:** active sacroiliitis → axial spondyloarthritis / ankylosing spondylitis.

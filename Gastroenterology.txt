@@ -1,0 +1,51 @@
+@ Gastro_025_m | Rumack-Matthew nomogram — 24F, depression, jaundice and confusion (case 2)
+- **Findings:** acetaminophen level 250 mcg/mL (mg/L), well above the treatment line (≈ 150 mg/L at 4 h on the US line; 100 mg/L on the UK line shown).
+- **Diagnosis:** toxic acetaminophen ingestion → IV N-acetylcysteine now (nomogram only valid for a single acute ingestion with known time; give NAC regardless if time unknown or liver injury present).
+
+@ Gastro_062_0 | Colonoscopy — 24M, bloody diarrhea 6 weeks (case 11)
+- **Findings:** distal segments show diffuse erythema, granular friable mucosa and loss of vascular pattern; proximal segments show a normal vascular pattern; biopsies: cryptitis, crypt abscesses and architectural distortion in rectum, sigmoid and descending colon; transverse, right colon and terminal ileum normal.
+- **Diagnosis:** left-sided ulcerative colitis (continuous from the rectum, chronic architectural distortion).
+
+@ Gastro_062_1 | Colonoscopy, segments C and D — same patient (case 11)
+- **Findings:** preserved fine vascular pattern, no ulcers.
+- **Diagnosis:** normal proximal colon — confirms disease limited to the left colon (E2, left-sided UC).
+
+@ Gastro_068_0 | Knees, before treatment — 21F, diarrhea and rash (case 12)
+- **Findings:** symmetric grouped erythematous papules / excoriations on the extensor surfaces of both knees.
+- **Diagnosis:** dermatitis herpetiformis → celiac disease (check TTG-IgA with total IgA, duodenal biopsies).
+
+@ Gastro_068_1 | Knees, after treatment — same patient (case 12)
+- **Findings:** rash cleared.
+- **Diagnosis:** response to a strict gluten-free diet (± dapsone).
+
+@ Gastro_097_0 | Colonoscopy — 26M, bloody diarrhea, weight loss, arthralgia (case 8)
+- **Findings:** deep longitudinal / serpiginous ulcers, cobblestone mucosa and patchy inflammation with normal areas between (skip lesions).
+- **Diagnosis:** Crohn's disease.
+
+@ Gastro_096_0 | CT abdomen and pelvis — same patient (case 8)
+- **Findings:** right lower quadrant fluid collection with gas bubbles (arrows) tracking into the right psoas; thickened adjacent bowel.
+- **Diagnosis:** Crohn's disease complicated by ileopsoas abscess → drainage + antibiotics before biologics.
+
+@ Gastro_120_0 | Lower legs — 20M, chronic diarrhea, weight loss, perianal pain (case 9)
+- **Findings:** tender, ill-defined erythematous nodules on the shins (outlined).
+- **Diagnosis:** erythema nodosum — extra-intestinal manifestation of Crohn's disease.
+
+@ Gastro_120_1 | Colonoscopy, terminal ileum — same patient (case 9)
+- **Findings:** edematous ileal mucosa with ulceration, nodularity and narrowing.
+- **Diagnosis:** Crohn's ileitis.
+
+@ Gastro_121_0 | CT enterography — same patient (case 9)
+- **Findings:** thickened, hyper-enhancing terminal ileum with engorged vasa recta ("comb sign") and mesenteric fat stranding.
+- **Diagnosis:** active ileal Crohn's disease.
+
+@ Gastro_079_0 | Upper endoscopy — 45M, maroon rectal bleeding (case 15)
+- **Findings:** ulcer at the pylorus / duodenal bulb with a clean whitish fibrin base and a small red spot at its edge (stigma of recent hemorrhage).
+- **Diagnosis:** bleeding peptic ulcer (upper source for hematochezia; Forrest IIa–IIb if a visible vessel or clot → endoscopic therapy + high-dose PPI).
+
+@ Gastro_012_0 | Upper endoscopy — 65M, dysphagia and weight loss (case 17)
+- **Findings:** irregular, friable, ulcerated mass narrowing the esophageal lumen.
+- **Diagnosis:** esophageal carcinoma → biopsy, CT / PET staging, EUS.
+
+@ Gastro_084_0 | Colonoscopy — 46M, fatigue, bloating, constipation (case 18)
+- **Findings:** large lobulated, fungating polypoid mass with irregular surface.
+- **Diagnosis:** colorectal adenocarcinoma (right colon) → biopsy, CEA, CT staging; screen first-degree relatives at 40 or 10 years before the index age.

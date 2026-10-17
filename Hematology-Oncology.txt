@@ -1,0 +1,15 @@
+@ Hem-Onc_006_0 | Peripheral blood film — 30F, fever, fatigue, Hb 8, platelets 10 (case 2)
+- **Findings:** many fragmented red cells (schistocytes / helmet cells), polychromatic cells, virtually no platelets; normal PT / aPTT on the lab sheet.
+- **Diagnosis:** microangiopathic hemolytic anemia with thrombocytopenia → TTP until proven otherwise (ADAMTS13, PLASMIC score, urgent plasma exchange).
+
+@ Hem-Onc_109_0 | Peripheral blood film — 35F, spontaneous bruising and confusion (case 4)
+- **Findings:** schistocytes (fragmented, helmet and triangular cells) and markedly reduced platelets.
+- **Diagnosis:** MAHA + thrombocytopenia + neurologic features → thrombotic thrombocytopenic purpura.
+
+@ Hem-Onc_055_0 | Urine microscopy — 28F, petechiae, fatigue, dark scanty urine (case 5)
+- **Findings:** red blood cell casts.
+- **Diagnosis:** glomerular injury (nephritic sediment) — with schistocytes, platelets 21, creatinine 470 and ADAMTS13 > 10% → atypical HUS (complement-mediated) → eculizumab / ravulizumab.
+
+@ Hem-Onc_049_m | Peripheral blood film + supravital stain — 19M, jaundice and dark urine after a drug for dental infection (case 8)
+- **Findings:** top and lower left: bite cells and blister cells (arrows); lower right (supravital stain): Heinz bodies (precipitated hemoglobin) at the red-cell edges.
+- **Diagnosis:** oxidative hemolysis from G6PD deficiency → stop the trigger, supportive care; measure G6PD level after recovery (falsely normal during acute hemolysis).

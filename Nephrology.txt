@@ -1,0 +1,31 @@
+@ Nephro_018_0 | ECG — 22M, collapse after a charity run in the heat (case 3)
+- **Findings:** tall peaked T waves; widened QRS merging into the T waves; flattened / absent P waves; regular rhythm.
+- **Diagnosis:** severe hyperkalemia from rhabdomyolysis → IV calcium gluconate, insulin–dextrose, salbutamol; urgent dialysis if refractory.
+
+@ Nephro_019_0 | Urine — same patient (case 3)
+- **Findings:** dark tea / cola-colored urine compared with normal straw-colored control; dipstick blood positive with no RBCs on microscopy.
+- **Diagnosis:** myoglobinuria → rhabdomyolysis (CK very high) → aggressive IV fluids targeting urine output 200–300 mL/h.
+
+@ Nephro_010_a | Urine microscopy — 26M, gross hematuria (case 4)
+- **Findings:** dysmorphic red cells (acanthocytes / "Mickey Mouse" cells) and red-cell casts.
+- **Diagnosis:** glomerular hematuria (nephritic sediment) → IgA nephropathy in this station.
+
+@ Nephro_109_0 | Urine microscopy — 25M, red urine 2 days after URTI (case 4)
+- **Findings:** red blood cell casts.
+- **Diagnosis:** glomerulonephritis; synpharyngitic timing (1–2 days after URTI) → IgA nephropathy (vs 2–3 weeks for post-strep GN).
+
+@ Nephro_055_0 | Urine microscopy + CXR — 28F, joint pain, cough, fatigue (case 5)
+- **Findings:** urine: red-cell casts; CXR: bilateral patchy air-space consolidation, more in the left mid / lower zones; labs: WBC 19 ×10⁹/L, creatinine 470 µmol/L (≈ 5.3 mg/dL), K 5.2 mmol/L, ESR 92, ANA / ANCA / anti-GBM negative, C3 / C4 normal.
+- **Diagnosis:** pneumonia with nephritic syndrome → infection-related glomerulonephritis (pulmonary-renal syndrome excluded by negative serology).
+
+@ Nephro_040_0 | Renal biopsy (PAS) — 28F, protein 3+, RBC 15/hpf (case 6)
+- **Findings:** glomeruli with global endocapillary hypercellularity, thickened capillary walls ("wire loops") and mesangial expansion involving > 50% of glomeruli.
+- **Diagnosis:** diffuse proliferative lupus nephritis, ISN/RPS class IV → steroids + MMF or cyclophosphamide, HCQ.
+
+@ Nephro_026_a | Adrenal MRI — 22F, BP 188/105, cramps and weakness (case 14)
+- **Findings:** (a) T1 in-phase: 3.0 cm well-defined left adrenal nodule (arrow); (b) out-of-phase: homogeneous signal drop = intracellular lipid.
+- **Diagnosis:** lipid-rich adrenal adenoma → aldosterone-producing adenoma (Conn's) → adrenal vein sampling, then laparoscopic adrenalectomy.
+
+@ Nephro_027_0 | Hypertensive retinopathy grading (reference slide, case 14)
+- **Findings:** grade I arteriolar thickening; II AV nipping; III flame / dot-blot hemorrhages, cotton-wool spots, hard exudates; IV papilledema.
+- **Diagnosis:** Keith-Wagener-Barker grading — grade III–IV = hypertensive emergency territory.

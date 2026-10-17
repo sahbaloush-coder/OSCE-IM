@@ -1,0 +1,55 @@
+@ ID_006_0 | CXR — 34M, fever, dyspnea and cough for 2–3 weeks (case 1)
+- **Findings:** bilateral, symmetric, perihilar reticular / ground-glass interstitial opacities; no effusion, no cavity, no lymphadenopathy.
+- **Diagnosis:** Pneumocystis jirovecii pneumonia (first presentation of HIV) → induced sputum / BAL immunofluorescence, LDH, ABG.
+
+@ ID_039_0 | CXR — 34M, same presentation, second station (case 1)
+- **Findings:** bilateral diffuse perihilar interstitial infiltrates sparing the apices; lab sheet: WBC 3.4, LDH 460, PaO2 73 mmHg, HIV positive (viral load 100,000), PCP immunofluorescence positive.
+- **Diagnosis:** PCP in newly diagnosed HIV → TMP-SMX 21 days; steroids if PaO2 < 70 mmHg or A-a gradient ≥ 35; start ART within 2 weeks.
+
+@ ID_012_0 | CXR — 39M prison officer, dyspnea for 3 weeks (case 5)
+- **Findings:** large right pleural effusion — homogeneous opacity of the right mid and lower zones with a meniscus, blunted costophrenic angle; left lung clear.
+- **Diagnosis:** pleural effusion → thoracentesis: lymphocytic exudate with high ADA = tuberculous pleuritis.
+
+@ ID_019_0 | CXR (shielded) — 27F, 12 weeks pregnant, left chest pain 4 weeks (case 6)
+- **Findings:** left-sided pleural effusion obscuring the left hemidiaphragm and costophrenic angle with a meniscus; right lung clear.
+- **Diagnosis:** left pleural effusion → TB pleuritis in pregnancy (RIPE + pyridoxine is safe in pregnancy).
+
+@ ID_049_0 | CXR — 44M, a month of headache and fever (case 7)
+- **Findings:** innumerable tiny (1–3 mm) nodules uniformly distributed through both lungs (arrows).
+- **Diagnosis:** miliary tuberculosis (with TB meningitis on LP / MRI).
+
+@ ID_049_1 | Ziehl-Neelsen stain — same patient (case 7)
+- **Findings:** slender red (acid-fast) bacilli on a blue background.
+- **Diagnosis:** acid-fast bacilli → Mycobacterium tuberculosis.
+
+@ ID_054_0 | Gram stain of blood culture — 40M, fever and back pain for 3 weeks (case 10)
+- **Findings:** small gram-negative coccobacilli.
+- **Diagnosis:** Brucella species (raw milk) → doxycycline + rifampicin (or streptomycin / gentamicin) for spondylitis / sacroiliitis ≥ 12 weeks.
+
+@ ID_108_0 | Gram stain of blood culture — 30M on a farm, fever and night sweats 3 months, dyspnea (case 11)
+- **Findings:** numerous tiny gram-negative coccobacilli (culture flagged after prolonged incubation).
+- **Diagnosis:** Brucella bacteremia → Brucella endocarditis.
+
+@ ID_108_ecg | ECG — same patient (case 11)
+- **Findings:** prolonged PR interval (first-degree AV block); broad QRS with left bundle branch block pattern.
+- **Diagnosis:** new conduction disease in endocarditis → aortic root (perivalvular) abscess → urgent TEE and cardiac surgery.
+
+@ ID_024_0 | Contrast CT brain — 68M, fever and headache for 7 days (case 12)
+- **Findings:** left frontal rounded lesion with a thin, smooth, complete ring of enhancement, low-density center and surrounding edema with mass effect.
+- **Diagnosis:** brain abscess (seeded from a septic prosthetic knee) → neurosurgical aspiration + IV antibiotics.
+
+@ ID_044_0 | Skin photo — 38F from Najran, fever and headache 2 days (case 14)
+- **Findings:** diffuse confluent erythematous / petechial rash on the forearm with small islands of spared skin ("white islands in a sea of red").
+- **Diagnosis:** dengue fever rash → check platelets, hematocrit, NS1 antigen / IgM; watch for warning signs and plasma leakage.
+
+@ ID_078_0 | Gram stain of urethral discharge — 32M, urethral discharge and pruritus (case 15)
+- **Findings:** many neutrophils containing intracellular gram-negative diplococci.
+- **Diagnosis:** gonococcal urethritis → ceftriaxone 500 mg IM single dose + doxycycline 7 days if chlamydia not excluded; treat partners, test for HIV / syphilis.
+
+@ ID_088_0 | Oral photo — 40M, fever and a bleeding oral lesion (case 3)
+- **Findings:** violaceous, raised nodular lesion on the hard palate, bleeds easily; candidiasis may coexist.
+- **Diagnosis:** Kaposi sarcoma → test for HIV (AIDS-defining, HHV-8).
+
+@ ID_093_0 | Legs — same patient (case 3)
+- **Findings:** multiple violaceous / purple-brown macules, plaques and nodules on both lower legs with lymphedema.
+- **Diagnosis:** cutaneous Kaposi sarcoma (AIDS-related) → ART ± chemotherapy (liposomal doxorubicin / paclitaxel) for extensive disease.

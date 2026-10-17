@@ -1,0 +1,23 @@
+@ Endo_010_0 | Eye photo — 36F, palpitations, heat intolerance, weight loss (case 5)
+- **Findings:** marked proptosis (exophthalmos) with upper-lid retraction, visible sclera, conjunctival injection / periorbital fullness.
+- **Diagnosis:** Graves ophthalmopathy (thyroid eye disease) — Graves disease.
+
+@ Endo_057_0 | Face photo — 35F, weight loss, palpitations, heat intolerance (case 5)
+- **Findings:** bilateral lid retraction with scleral show above the iris (right more than left), staring look, proptosis.
+- **Diagnosis:** Graves ophthalmopathy → stop smoking, lubricants, steroids or teprotumumab if active moderate–severe; avoid radioiodine in active eye disease.
+
+@ Endo_103_0 | Thyroid ultrasound — 22M, right thyroid nodule (case 6)
+- **Findings:** solid hypoechoic nodule with irregular margins and multiple punctate echogenic foci (microcalcifications).
+- **Diagnosis:** suspicious nodule (TI-RADS 5) → FNA → papillary thyroid carcinoma.
+
+@ Endo_022_0 | ECG — 28F, twitching and carpopedal spasm after thyroidectomy (case 8)
+- **Findings:** sinus rhythm; long ST segment with prolonged QT interval; normal T-wave morphology.
+- **Diagnosis:** hypocalcemia (post-thyroidectomy hypoparathyroidism).
+
+@ Endo_023_0 | Photo — same patient (case 8)
+- **Findings:** carpal spasm (flexed wrist and MCPs, extended fingers, adducted thumb) after inflating the BP cuff above systolic for 3 minutes.
+- **Diagnosis:** positive Trousseau sign → hypocalcemia; give IV calcium gluconate, then oral calcium + calcitriol.
+
+@ Endo_030_0 | Photos — 28F, "PCOS", amenorrhea, vertebral fracture (case 10)
+- **Findings:** central obesity with thin limbs; wide purple abdominal striae; dorsocervical fat pad (buffalo hump); round plethoric face.
+- **Diagnosis:** Cushing syndrome (ACTH-dependent pituitary — Cushing disease in this station).

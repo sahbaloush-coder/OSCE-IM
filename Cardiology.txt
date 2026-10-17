@@ -1,0 +1,47 @@
+@ Cardio_011_0 | ECG — 75M, DM, epigastric pain (case 1)
+- **Findings:** ST elevation in II, III, aVF (III > II); reciprocal ST depression in I and aVL; ST depression with upright T waves in V1–V3 (posterior extension); slow rate.
+- **Diagnosis:** acute inferior-posterior STEMI (RCA occlusion) — do right-sided leads (V4R) for RV infarct; watch for complete heart block.
+
+@ Cardio_045_0 | ECG — 65M, DM, chest pain (case 2)
+- **Findings:** machine read: ventricular rate 45, QRS 162 ms, right bundle branch block, anteroseptal infarct; ST elevation across the anterior leads; slow ventricular rate with AV block.
+- **Diagnosis:** acute anterior STEMI with new RBBB and high-grade AV block (proximal LAD) → primary PCI ± temporary pacing.
+
+@ Cardio_079_0 | ECG — 45M, HTN, tearing chest pain to the back (case 4)
+- **Findings:** ST elevation in II, III, aVF with reciprocal ST depression in I and aVL.
+- **Diagnosis:** inferior STEMI pattern caused by type A dissection extending into the right coronary ostium — no thrombolysis or heparin until dissection is excluded.
+
+@ Cardio_079_1 | CXR — same patient (case 4)
+- **Findings:** AP erect film; widened superior mediastinum; prominent aortic contour.
+- **Diagnosis:** suspected aortic dissection → urgent CT angiography.
+
+@ Cardio_079_2 | CT angiography of the chest — same patient (case 4)
+- **Findings:** dilated ascending aorta with an intimal flap separating true and false lumens; flap also seen in the descending aorta.
+- **Diagnosis:** Stanford type A (DeBakey I) aortic dissection → emergency surgery.
+
+@ Cardio_062_0 | ECG — 58M, chest pain 1 day after anterior MI + PCI (case 5)
+- **Findings:** sinus rhythm; diffuse concave (saddle-shaped) ST elevation in I, II, III, aVF, V2–V6; PR depression; ST depression and PR elevation in aVR; no reciprocal changes.
+- **Diagnosis:** acute (early post-infarction) pericarditis.
+
+@ Cardio_017_0 | ECG — palpitations clinic, rheumatic MS (case 8)
+- **Findings:** irregularly irregular narrow-complex rhythm; no discernible P waves; ventricular rate ≈ 100–110.
+- **Diagnosis:** atrial fibrillation with rapid ventricular response (valvular AF with MS → warfarin, CHA2DS2-VASc not used).
+
+@ Cardio_039_0 | ECG — 50F, DM, HTN, palpitations and LOC (case 8)
+- **Findings:** irregularly irregular rhythm, no P waves, fibrillatory baseline, narrow QRS, ventricular rate ≈ 80.
+- **Diagnosis:** atrial fibrillation with controlled ventricular rate.
+
+@ Cardio_091_0 | ECG — 67F, recurrent palpitations and dizziness (case 7)
+- **Findings:** irregularly irregular narrow-complex rhythm; no P waves; fibrillatory waves best in V1; rate ≈ 100.
+- **Diagnosis:** atrial fibrillation (CHA2DS2-VASc 4 → anticoagulate; dose-adjust for CKD).
+
+@ Cardio_027_0 | ECG — 48M, palpitations, old MI (case 10)
+- **Findings:** regular broad-complex tachycardia ≈ 190/min; QRS > 140 ms; uniform (monomorphic) morphology; extreme axis (negative in I, II, III, aVF); no visible P waves.
+- **Diagnosis:** sustained monomorphic ventricular tachycardia (scar-related) → DC cardioversion if unstable; procainamide / amiodarone if stable.
+
+@ Cardio_068_0 | ECG — 20M, syncope playing football (case 12)
+- **Findings:** sinus rhythm; very tall R waves in V4–V6 (LVH by voltage); deep symmetric T-wave inversion in V4–V6 and I.
+- **Diagnosis:** hypertrophic cardiomyopathy (LVH with giant / deep T inversion — apical pattern) → echo for septal thickness and LVOT gradient.
+
+@ Cardio_118_0 | CXR — 55M, IHD, dyspnea and leg swelling (case 14)
+- **Findings:** sternotomy wires (prior CABG); cardiomegaly; upper-lobe venous diversion; perihilar haziness; Kerley B lines (arrows); fluid in the horizontal fissure; blunted costophrenic angles.
+- **Diagnosis:** acute pulmonary edema / decompensated heart failure.

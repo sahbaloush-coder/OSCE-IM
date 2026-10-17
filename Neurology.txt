@@ -1,0 +1,39 @@
+@ Neuro_012_0 | Non-contrast CT brain — 24F on OCP, headache and first seizure (case 1)
+- **Findings:** rounded hyperdensity in the posterior interhemispheric / parasagittal occipital region at the superior sagittal sinus (hyperdense thrombosed sinus — "dense triangle" — with adjacent venous hemorrhage).
+- **Diagnosis:** suspected cerebral venous thrombosis → confirm with MR / CT venography.
+
+@ Neuro_011_0 | MR venogram — same patient (case 1)
+- **Findings:** absent flow signal in the right transverse–sigmoid sinus (arrow); left transverse sinus and superior sagittal sinus fill.
+- **Diagnosis:** cerebral venous sinus thrombosis → anticoagulate with LMWH even with hemorrhage; stop OCP; thrombophilia screen.
+
+@ Neuro_051_fundus | Fundoscopy — 30F, bilateral blurred vision and headache (case 3)
+- **Findings:** bilateral swollen optic discs with blurred margins, obscured vessels, peripapillary flame hemorrhages and exudates.
+- **Diagnosis:** bilateral papilledema (raised intracranial pressure).
+
+@ Neuro_051_mri | MRI brain, sagittal T2 — same patient (case 3)
+- **Findings:** flattened pituitary in a CSF-filled sella (partially empty sella); no mass, no hydrocephalus.
+- **Diagnosis:** sign of chronic raised ICP → with normal MRV and high opening pressure (> 25 cmH2O) with normal CSF = idiopathic intracranial hypertension.
+
+@ Neuro_051_vf | Visual fields — same patient (case 3)
+- **Findings:** enlarged blind spots (A–C) progressing to peripheral constriction and dense field loss (D–F).
+- **Diagnosis:** papilledema-related visual field loss → vision-threatening IIH needs acetazolamide ± weight loss, and optic nerve sheath fenestration / CSF shunt if progressing.
+
+@ Neuro_029_0 | ABG on face mask (FiO2 0.4) — 71M, dyspnea, limb weakness, diplopia (case 5)
+- **Findings:** pH 7.32; PaO2 12.4 kPa (≈ 93 mmHg) on FiO2 0.4 (P/F ≈ 233); PaCO2 5.9 kPa (≈ 44 mmHg); HCO3 28 mmol/L (28 mEq/L); lactate 1.2 mmol/L (≈ 11 mg/dL); BE +4.9; K 4.6 mmol/L (4.6 mEq/L).
+- **Diagnosis:** acidemia with a "normal" PaCO2 in a breathless patient and a raised bicarbonate = early / impending hypercapnic (type 2) respiratory failure from neuromuscular weakness → myasthenic crisis; check FVC / NIF, ICU, intubate early (FVC < 20 mL/kg).
+
+@ Neuro_044_0 | Fundoscopy — 30M, right eye decreased vision (case 10)
+- **Findings:** both optic discs look normal (no swelling, no pallor); exam sheet: right RAPD, reduced acuity, red desaturation, central scotoma.
+- **Diagnosis:** retrobulbar optic neuritis ("the patient sees nothing and the doctor sees nothing").
+
+@ Neuro_066_1 | Swinging flashlight test — 32F, right decreased vision (case 10)
+- **Findings:** both pupils constrict when the light is on the normal eye; when the light swings to the affected eye, both pupils dilate.
+- **Diagnosis:** relative afferent pupillary defect (Marcus Gunn pupil) → optic nerve lesion on the affected side.
+
+@ Neuro_045_0 | MRI brain, FLAIR — same presentation (case 10)
+- **Findings:** multiple ovoid hyperintense white-matter lesions — periventricular, perpendicular to the ventricles on sagittal views (Dawson fingers), callosal and juxtacortical; CSF oligoclonal bands positive (not in serum).
+- **Diagnosis:** multiple sclerosis (dissemination in space ± time) presenting with optic neuritis → IV methylprednisolone, then disease-modifying therapy.
+
+@ Neuro_075_0 | CT angiography — 25F, left-sided weakness and facial asymmetry, NIHSS 10 (case 8)
+- **Findings:** abrupt cut-off / non-opacification of the right middle cerebral artery at M1; other circle-of-Willis vessels opacify.
+- **Diagnosis:** acute ischemic stroke from right M1 large-vessel occlusion → IV thrombolysis if < 4.5 h + mechanical thrombectomy (up to 24 h with favorable imaging); young-stroke workup.

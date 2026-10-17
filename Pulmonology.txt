@@ -1,0 +1,87 @@
+@ Pulmo_013_a | CXR + V/Q scan — 45F, exertional dyspnea, PE 1 year ago (case 1)
+- **Findings:** CXR: prominent main pulmonary artery and right heart border, peripheral oligemia (pruning). V/Q: multiple segmental perfusion defects with normal ventilation (mismatched).
+- **Diagnosis:** chronic thromboembolic disease → right heart catheterization confirmed CTEPH (mPAP 40 mmHg, PCWP 12 mmHg).
+
+@ Pulmo_014_a | ECG — same patient (case 1)
+- **Findings:** sinus tachycardia; peaked P waves (right atrial enlargement); right axis deviation; dominant R in V1 (RV hypertrophy); T-wave inversion V1–V3 (RV strain).
+- **Diagnosis:** right ventricular hypertrophy with strain → pulmonary hypertension.
+
+@ Pulmo_136_a | ECG — 46F, progressive dyspnea, PE and 2 miscarriages (case 2)
+- **Findings:** right axis deviation; RV hypertrophy; RBBB pattern with T inversion in V1–V3.
+- **Diagnosis:** right heart strain from pulmonary hypertension.
+
+@ Pulmo_137_a | CXR — same patient (case 2)
+- **Findings:** enlarged central pulmonary arteries, prominent right heart border, clear lung fields.
+- **Diagnosis:** pulmonary hypertension → V/Q (mismatched defects) + RHC (mPAP 48 mmHg, PCWP 12 mmHg) = CTEPH due to APS.
+
+@ Pulmo_025_a | CXR — 65M smoker, dry cough 3 years, SpO2 87% (case 5)
+- **Findings:** bilateral diffuse reticular (interstitial) opacities, basal and peripheral predominant, reduced lung volumes.
+- **Diagnosis:** interstitial lung disease → confirm with HRCT.
+
+@ Pulmo_026_a | HRCT — same patient (case 5)
+- **Findings:** subpleural, basal-predominant honeycombing, reticulation and traction bronchiectasis; no ground glass or nodules.
+- **Diagnosis:** usual interstitial pneumonia (UIP) pattern → idiopathic pulmonary fibrosis.
+
+@ Pulmo_129_a | PFT + HRCT — 63M smoker, dyspnea now at rest, SpO2 88% (case 6)
+- **Findings:** FVC 1.93 L (56%), FEV1 2.03 L (60%), FEV1/FVC 93%, TLC 3.21 L (53%), DLCO 42% → restrictive defect with low diffusion; HRCT: extensive peripheral honeycombing and traction bronchiectasis.
+- **Diagnosis:** IPF (UIP) → antifibrotic (nintedanib / pirfenidone), O2, rehab, transplant referral.
+
+@ Pulmo_058_a | CXR + HRCT — 55M pigeon breeder, dry cough 10 months (case 7)
+- **Findings:** CXR: bilateral fine reticular / reticulonodular opacities. HRCT: diffuse centrilobular micronodules, ground glass and mosaic attenuation (air trapping); PFT restrictive with low DLCO.
+- **Diagnosis:** hypersensitivity pneumonitis (bird fancier's lung) → antigen avoidance ± steroids.
+
+@ Pulmo_033_a | HRCT + CXR — 66M, 40 pack-years, dyspnea and cough (case 8)
+- **Findings:** CT: upper-zone centrilobular and paraseptal emphysema with thin-walled lucencies. CXR: hyperinflated lungs (> 6 anterior ribs), flattened diaphragms, narrow heart; spirometry obstructive, not reversible.
+- **Diagnosis:** COPD (emphysema), GOLD 3 group B.
+
+@ Pulmo_146_a | HRCT — 57M, 40 pack-years, mMRC 4 (case 9)
+- **Findings:** bilateral upper-lobe centrilobular emphysema (areas of low attenuation without walls) with paraseptal changes.
+- **Diagnosis:** emphysema (COPD).
+
+@ Pulmo_147_a | CXR — same patient (case 9)
+- **Findings:** hyperinflation, flat hemidiaphragms, increased retrosternal space, long narrow heart, attenuated peripheral vessels.
+- **Diagnosis:** COPD (emphysema) → LAMA + LABA, rehab, LVRS / home O2 assessment.
+
+@ Pulmo_086_a | Spirometry, flow-volume loop and CXR — 18M, nocturnal cough and exercise dyspnea (case 10)
+- **Findings:** FVC 3.15 L (89%); FEV1 2.07 L (66%); FEV1/FVC 65% (obstruction); after bronchodilator FEV1 2.52 L = +14% and +450 mL (significant: ≥ 12% and ≥ 200 mL); scooped expiratory loop that improves after bronchodilator; CXR normal.
+- **Diagnosis:** reversible airflow obstruction → bronchial asthma.
+
+@ Pulmo_045_a | CXR + HRCT — 24M, productive cough > 2 years, infertile (case 11)
+- **Findings:** CXR: hyperinflation, bronchial wall thickening, ring and tram-track shadows. HRCT: bilateral cystic bronchiectasis with thick-walled dilated bronchi (signet-ring sign) and mucus plugging; sweat chloride 70 mmol/L (≥ 60 = diagnostic).
+- **Diagnosis:** cystic fibrosis bronchiectasis.
+
+@ Pulmo_155_a | HRCT + spirometry — 55M, treated TB, copious morning sputum (case 12)
+- **Findings:** right upper lobe cystic / varicose bronchiectasis with volume loss and fibrosis; FEV1 1.36 L (51%), FEV1/FVC 45%, post-bronchodilator change 3% (not reversible).
+- **Diagnosis:** post-TB bronchiectasis with fixed airflow obstruction.
+
+@ Pulmo_019_a | CXR + CT chest — 35F non-smoker, arm pain to ring / little fingers, ptosis (case 13)
+- **Findings:** CXR: right apical opacity. CT: right apical (superior sulcus) soft-tissue mass invading the posterior chest wall and paravertebral region.
+- **Diagnosis:** Pancoast (superior sulcus) tumor with Horner syndrome → biopsy: EGFR-mutant adenocarcinoma.
+
+@ Pulmo_051_a | CXR — 66M, 35 pack-years, hemoptysis, Ca 3.0 mmol/L (case 14)
+- **Findings:** large well-circumscribed rounded mass in the left mid / lower zone projecting through the heart.
+- **Diagnosis:** lung mass → CT.
+
+@ Pulmo_052_a | CT chest (mediastinal and lung windows) — same patient (case 14)
+- **Findings:** large lobulated soft-tissue mass in the left lower lobe abutting the descending aorta / posterior pleura.
+- **Diagnosis:** primary lung cancer, likely squamous cell (smoker + PTHrP hypercalcemia).
+
+@ Pulmo_103_a | CXR + CT — 45M from India, hemoptysis, AFB positive (case 15)
+- **Findings:** CXR: patchy multifocal consolidation in the right upper zone. CT: right upper lobe consolidation with nodules / tree-in-bud and early cavitation.
+- **Diagnosis:** active pulmonary tuberculosis → airborne isolation, RIPE + pyridoxine.
+
+@ Pulmo_039_a | CXR — 62M, fever, pleuritic pain, confusion, BP 88/52 (case 16)
+- **Findings:** right lower zone air-space consolidation with air bronchograms.
+- **Diagnosis:** right lower lobe community-acquired pneumonia (CURB-65 = 4 → ICU).
+
+@ Pulmo_116_a | CXR — 42M, dyspnea, pleuritic pain after URTI (case 17)
+- **Findings:** right-sided pleural effusion — homogeneous opacity of the right lower and mid zone with a meniscus (arrow), blunted costophrenic angle.
+- **Diagnosis:** pleural effusion → tap: exudate, pH 7.27, glucose 55 mg/dL (≈ 3.1 mmol/L) = complicated parapneumonic effusion.
+
+@ Pulmo_081_a | CXR — 60M with cirrhosis and ascites, dyspnea 3 weeks (case 18)
+- **Findings:** large right pleural effusion with meniscus, displacing the mediastinum slightly to the left; left lung clear.
+- **Diagnosis:** right-sided transudate in cirrhosis = hepatic hydrothorax.
+
+@ Pulmo_007_a | CXR — 32M, COVID-19, intubated (case 19)
+- **Findings:** endotracheal tube and lines in place; bilateral diffuse patchy alveolar / ground-glass opacities, peripheral and lower-zone predominant; no effusion, normal heart size.
+- **Diagnosis:** ARDS from COVID-19 pneumonia (bilateral infiltrates, PaO2 52 mmHg, not cardiogenic) → lung-protective ventilation, prone.
