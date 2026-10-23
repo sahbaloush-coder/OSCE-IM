@@ -399,6 +399,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
       h += '<div class="qnav"><button onclick="QUIZ.again()">Retry this case</button><button class="primary" onclick="QUIZ.nextCase()">Next case →</button></div>';
       body.innerHTML = h;
     }
+    if (window.NOTES) NOTES.refreshQuiz(s.src);   // highlights made in this station
     const showScore = mode === 'check' || (mode === 'run' && checkMode === 'part' && (partOpen || Object.keys(marks).length));
     $('qscore').hidden = !showScore; if (showScore) score();
     window.scrollTo(0, 0);
@@ -620,9 +621,15 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
 
   // ---------- helpers
   function hash(s) { let h = 5381; for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0; return (h >>> 0).toString(36); }
+  const SCOPE = '.panel, #qbody';
+  function scopeId(c) { return c.id === 'qbody' ? 'q:' + (c.dataset.station || '') : c.id; }
+  function containerFor(id) {
+    if (id.startsWith('q:')) { const q = document.getElementById('qbody'); return q && q.dataset.station === id.slice(2) ? q : null; }
+    return document.getElementById(id);
+  }
   function blocksOf(panel) { return [...panel.querySelectorAll(BLOCK)].filter(b => !b.closest('summary, button, .hlbar, .edbar') && !b.querySelector(BLOCK)); }
   function keyOf(block) {
-    const panel = block.closest('.panel'), h = hash(norm(block));
+    const panel = block.closest(SCOPE), h = hash(norm(block));
     let n = 0;
     for (const b of blocksOf(panel)) { if (hash(norm(b)) === h) { if (b === block) break; n++; } }
     return h + '#' + n;
@@ -666,7 +673,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
   const H = { all() { return ls.get('osce-hl', {}); }, save(a) { ls.set('osce-hl', a); } };
   function applyRecord(hid, r) {
     r.parts.forEach(pt => {
-      const panel = document.getElementById(pt.p); if (!panel) return;
+      const panel = containerFor(pt.p); if (!panel) return;
       let block = null;
       const [h] = pt.k.split('#');
       const cands = blocksOf(panel).filter(b => hash(norm(b)) === h);
@@ -681,7 +688,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
 
   function selectionParts(range) {
     const root = range.commonAncestorContainer.nodeType === 1 ? range.commonAncestorContainer : range.commonAncestorContainer.parentElement;
-    const panel = root.closest('.panel'); if (!panel || root.closest('[contenteditable="true"]')) return null;
+    const panel = root.closest(SCOPE); if (!panel || root.closest('[contenteditable="true"]')) return null;
     const byBlock = new Map();
     textNodes(root.closest(BLOCK) || root).forEach(n => {
       if (!range.intersectsNode(n) || !n.textContent.trim()) return;
@@ -697,7 +704,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
       // trim surrounding spaces
       const t = norm(block); let { s, e } = v;
       while (s < e && /\s/.test(t[s])) s++; while (e > s && /\s/.test(t[e - 1])) e--;
-      if (e > s) parts.push({ block, p: panel.id, k: keyOf(block), s, e, t: t.slice(s, e) });
+      if (e > s) parts.push({ block, p: scopeId(panel), k: keyOf(block), s, e, t: t.slice(s, e) });
     });
     return parts.length ? parts : null;
   }
@@ -784,7 +791,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
   });
   document.addEventListener('click', e => {
     const sp = e.target.closest('span.hl');
-    if (sp && sp.closest('.panel') && !sp.closest('[contenteditable="true"]')) {
+    if (sp && sp.closest(SCOPE) && !sp.closest('[contenteditable="true"]')) {
       const s = window.getSelection(); if (s && !s.isCollapsed) return;
       e.preventDefault(); showBar(sp.getBoundingClientRect(), sp.dataset.hid); return;
     }
@@ -864,6 +871,12 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
   }
 
   window.NOTES = {
+    // the mock exam redraws its content at every step: put this station's highlights back afterwards
+    refreshQuiz(src) {
+      const q = document.getElementById('qbody'); if (!q) return;
+      q.dataset.station = src || ''; hideBar();
+      const a = H.all(); Object.keys(a).forEach(h => { if (a[h].parts.some(pt => pt.p === 'q:' + src)) applyRecord(h, a[h]); });
+    },
     clearHighlights() {
       if (!confirm('Remove all your highlights in every specialty?')) return;
       Object.keys(H.all()).forEach(unwrap); H.save({}); hideBar();
