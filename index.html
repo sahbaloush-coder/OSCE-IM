@@ -195,6 +195,11 @@ body.qpaused #qbody, body.qpaused #qscore { visibility:hidden; }
 #qpausebtn.on { background:var(--cta); color:var(--cta-fg); border-color:var(--cta); }
 .qpleft { font:700 26px/1 ui-monospace, SFMono-Regular, Menlo, monospace; margin:6px 0 10px; }
 .fromtag { display:inline-block; font-size:11px; font-weight:600; color:var(--brand); margin-right:6px; text-transform:uppercase; letter-spacing:.03em; }
+/* mark-done tick in the case list */
+button.ctick { cursor:pointer; font:inherit; font-size:13px; line-height:1.3; }
+button.ctick.todo { background:var(--box); }
+button.ctick.on { background:#2e7d32; border-color:#2e7d32; color:#fff; font-weight:700; }
+@media (hover:hover) and (pointer:fine) { button.ctick.todo:hover { border-color:#2e7d32; color:#2e7d32; } button.ctick.on:hover { background:#27692b; } }
 /* highlighter */
 span.hl { border-radius:2px; padding:1px 0; cursor:pointer; color:inherit; box-decoration-break:clone; -webkit-box-decoration-break:clone; }
 .hl-yellow { background:#fff176; } .hl-green { background:#b9f6ca; } .hl-blue { background:#b3e5fc; } .hl-pink { background:#f8bbd0; }
@@ -365,6 +370,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
   const done = {
     get() { return ls.get('osce-done2', []).filter(k => k in IDX).map(k => IDX[k]); },
     add(i) { const a = ls.get('osce-done2', []); if (!a.includes(KEY(i))) { a.push(KEY(i)); ls.set('osce-done2', a); } },
+    remove(i) { ls.set('osce-done2', ls.get('osce-done2', []).filter(k => k !== KEY(i))); },
     reset() { try { ['osce-done2', 'osce-rec', 'osce-done', 'osce-scores'].forEach(k => localStorage.removeItem(k)); } catch (e) {} }
   };
   function mix(a) { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
@@ -567,7 +573,7 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
         '<span class="cmeta">' + nd + ' / ' + ids.length + ' done' + (avg !== null ? ' · average ' + avg + '%' : '') + '</span></summary><div class="inner">';
       ids.forEach(i => {
         const x = S[i], r = recs[x.src], ct = caseTitle(x), isDone = d.has(i) || !!r;
-        const stat = r && r.pct !== undefined ? '<span class="cstat b' + band(r.pct) + '">' + r.pct + '%</span>' : isDone ? '<span class="cstat">Done · not marked</span>' : '<span class="cstat todo">Not done</span>';
+        const stat = r && r.pct !== undefined ? '<span class="cstat b' + band(r.pct) + '">' + r.pct + '%</span>' : isDone ? '<button class="cstat ctick on" onclick="QUIZ.toggleDone(' + i + ')" title="Marked done without a score. Click to unmark.">✓ Done</button>' : '<button class="cstat todo ctick" onclick="QUIZ.toggleDone(' + i + ')" title="Mark this case as done">☐ Not done</button>';
         h += '<div class="crow' + (isDone ? ' done' : '') + '"><button class="ctitle" onclick="QUIZ.openRow(' + i + ')" title="' + (isDone ? 'Review your checklist' : 'Start this station') + '"><b dir="auto">' + (x.pe ? '<span class="pebadge">Physical exam</span>' : '') + esc(ct.t) + '</b><small dir="auto">' + (x.from ? '<span class="fromtag">from ' + esc(((window.SPEC_LABEL || {})[x.from] || x.from).replace(/-/g, ' ')) + '</span>' : '') + esc(ct.s) + '</small></button>' +
           stat + '<span class="cbtns"><button onclick="QUIZ.rowNotes(' + i + ')">Notes</button><button onclick="QUIZ.rowStart(' + i + ')">' + (isDone ? 'Retry' : 'Start') + '</button></span></div>';
       });
@@ -655,6 +661,16 @@ window.SPEC_LABEL = {"Cardiology": "Cardiology", "Pulmonology": "Pulmonology", "
         clearInterval(timer); upAt = Date.now(); userPaused = true;
       }
       pauseUI();
+    },
+    toggleDone(i) {
+      // mark a case done without sitting the mock (or undo that); scored cases keep their score
+      const r = store.get(i);
+      if (r && r.pct !== undefined) return;
+      if (done.get().includes(i) || r) {
+        done.remove(i);
+        if (r) { const a = store.all(); delete a[KEY(i)]; ls.set('osce-rec', a); }
+      } else done.add(i);
+      renderList(); progress(); paintTests();
     },
     isActive() { return active; },
     testCase(ev, btn) {
